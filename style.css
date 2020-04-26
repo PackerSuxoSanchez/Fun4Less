@@ -43,7 +43,37 @@ h1 {
 /* Mobile Nav Rules */
 @media only screen and (max-width: 800px) {
     nav {
+        color: #056994;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    
+    nav ul {
+        display: block;
+        list-style-type: none;
+    }
 
+    nav ul li {
+        background-color: #E7D9B0;
+        margin: .5rem;
+        padding: .5rem;
+        border: 1px solid #056994;
+        text-align: center;
+        border-radius: 20px;
+    }
+
+    nav ul li:hover {
+        background-color: #056994;
+        transition: .75s;
+    }
+
+    nav ul li a {
+        padding: 2rem;
+    }
+
+    nav ul li a:hover {
+        color: #E7D9B0;
+        transition: .75s;
     }
 }
 
