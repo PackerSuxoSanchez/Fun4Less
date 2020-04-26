@@ -1,0 +1,80 @@
+/* ----- Color Scheme ----- */
+
+/*
+#E7D9B0 - Cookies and Cream
+#F5EFD1 - Eggshell
+#1EAFAA - Light Sea Green
+#056994 - Sea Blue
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+    
+body {
+    font-family: 'Spartan', sans-serif;
+    /* background-color: #F5EFD1; maybe come back to this color */
+}
+
+/* ----- Anchors ----- */
+a {
+    text-decoration: none;
+    color: #056994;
+}
+
+a:visited {
+    color: #056994;
+}
+
+/* ----- Headers ----- */
+h1 {
+    text-align: center;
+    margin: 2rem 0;
+    color: #056994;
+}
+
+/* ----- Nav Menu ----- */
+
+/* Mobile Nav Rules */
+@media only screen and (max-width: 800px) {
+    nav {
+
+    }
+}
+
+/* Desktop Nav Rules */
+@media only screen and (min-width: 801px) {
+    nav {
+        color: #056994;
+        background-color: #E7D9B0;
+        margin-bottom: 2rem;
+        width: 100%;
+        /* position: fixed; maybe come back to this later */
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+    nav ul li {
+        margin: 0 1rem 0 0;
+        padding: 2rem 0;
+    }
+    nav ul li:hover {
+        background-color: #056994;
+        transition: .75s;
+    }
+    nav ul li a {
+        padding: 2rem;
+    }
+
+    nav ul li a:hover {
+        color: #E7D9B0;
+        transition: .75s;
+    }
+}
