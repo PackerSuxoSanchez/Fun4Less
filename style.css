@@ -32,7 +32,7 @@ a:visited {
 }
 
 /* ----- Headers ----- */
-h1 {
+h1, h2 {
     text-align: center;
     margin: 2rem 0;
     color: #056994;
@@ -60,20 +60,6 @@ h1 {
         border: 1px solid #056994;
         text-align: center;
         border-radius: 20px;
-    }
-
-    nav ul li:hover {
-        background-color: #056994;
-        transition: .75s;
-    }
-
-    nav ul li a {
-        padding: .7rem 11.65rem;
-    }
-
-    nav ul li a:hover {
-        color: #E7D9B0;
-        transition: .75s;
     }
 }
 
@@ -107,4 +93,33 @@ h1 {
         color: #E7D9B0;
         transition: .75s;
     }
+}
+
+/* ----- Paragraphs ----- */
+p {
+    margin: 3rem;
+}
+
+/* ----- Images ----- */
+img {
+    margin: 1rem;
+}
+
+#homeImage {
+    text-align: center;
+}
+
+/* ----- Footer ----- */
+footer {
+    text-align: center;
+    color: #056994;
+    background-color: #E7D9B0;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: x-small;
+    margin: 0;
+    padding: 0;
 }
