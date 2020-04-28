@@ -45,6 +45,9 @@ h1, h2, h3 {
     margin: 2rem 0;
     color: #056994;
 }
+h4 {
+    margin-bottom: 1rem;
+}
 
 /* ----- Nav Menu ----- */
 
@@ -160,6 +163,51 @@ iframe {
 
 #packages img {
     height: 15rem;
+}
+
+/* ----- Contact Form ----- */
+fieldset {
+    border: 1px solid #1EAFAA;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+legend {
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-bottom: .5rem;
+}
+
+select {
+    margin-bottom: .75rem;
+}
+
+input {
+    border: 1px solid #056994;
+    border-radius: 2.5px;
+    margin-bottom: 1rem;
+}
+
+form fieldset label span {
+    padding-right: 1rem;
+    display: block;
+}
+
+textarea {
+    border-radius: 2.5px;
+    height: 7rem;
+    width: 50%;
+}
+
+.submitButton {
+    color: white;
+    margin-top: 1.5rem;
+    background-color: #056994;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid #F5EFD1;
+    display: flex;
 }
 
 /* ----- Footer ----- */

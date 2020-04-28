@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Packer Suxo-Sanchez">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="wrapper">
+    <!--Header-->
+    <header>
+        <h1>Contact Us!</h1>
+    </header>
+    <!--Nav Menu-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--Main Content-->
+    <main>
+        <!--Contact Form-->
+        <form action="success.html" method="POST" enctype="multipart/form-data" name="contactForm">
+            <!--Name Form-->
+            <fieldset>
+                <legend>Name</legend>
+                <!--Prefix-->
+                <select name="prefix">
+                    <option value="Mister">Mr.</option>
+                    <option value="Missus">Mrs.</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Ms.">Ms.</option>
+                </select>
+                <br>
+            <label><span>First Name:</span><input name="name" value="" type="text" placeholder="First Name" required></label>
+            <br>
+            <label><span>Last Name:</span><input name="name" value="" type="text" placeholder="Last Name" required></label>
+            </fieldset>
+            <!--Email Form-->
+            <fieldset>
+                <legend>Contact</legend>
+                <label><span>Email:</span><input type="email" name="email" value="" placeholder="email@example.com" required></label>
+            </fieldset>
+            <!--Radio Button Options-->
+            <fieldset>
+                <legend>I am looking to...</legend>
+            <label><input type="radio" name="inquiry" value="vacation" required> Vacation</label>
+            <br>
+            <label><input type="radio" name="inquiry" value="rent" required> Rent my own place out</label>
+            <br>
+            <label><input type="radio" name="inquiry" value="curious" required> Have my question answered</label>
+            </fieldset>
+            <!--Comment Box-->
+            <h4>Tell us something...</h4>
+            <textarea name="comments" placeholder="Hello there!" required></textarea>
+
+            <!--Redirect Page-->
+            <input type="hidden" name="Fun4Less" value="Contact Page">
+            <input type="hidden" name="redirect" value="success.html">
+            <!--Submit Button-->
+            <input type="submit" name="submit" value="Send it!" class="submitButton">
+        </form>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>Copyright &copy; 2020 Packer Suxo-Sanchez</p>
+    </footer>
+    </div>
+</body>
+</html>
